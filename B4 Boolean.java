@@ -17,6 +17,7 @@ class Bool{
         String name3 = "Subhranshu";
         System.out.println(name.equals(name2)); // false
         System.out.println(name.equals(name3)); // true
+        System.out.println(!name.equals(name3)); // false , !equals
         
         
     }

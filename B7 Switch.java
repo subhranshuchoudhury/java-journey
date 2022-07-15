@@ -40,5 +40,6 @@ class Switch{
                 System.out.println("Invalid entry! Kindly enter a number between 1 to 7");
             }
         }
+        scan.close();
     }
 }

@@ -29,6 +29,8 @@ public class RollDice{
         
         if(humanSum > computerSum){
             System.out.println("You Won!");
+        }else if(humanSum == computerSum){
+            System.out.println("Tie! No Winner..!");
         }else{
             System.out.println("Computer Won!");
         }
@@ -38,6 +40,7 @@ public class RollDice{
     public static int rollDice(){
         double random = (Math.random()*6)+1;
         return (int)random;
+        
  
     }
     

@@ -1,7 +1,7 @@
 // Scope
 
 class LearnScope {
-    int banana = 5;// can be access anywhere in the LearnScope class
+    static int banana = 5;// can be access anywhere in the LearnScope class
     public static void main(String[] args){
         int apple = 3; // only access inside main class
         System.out.println(banana); // no error

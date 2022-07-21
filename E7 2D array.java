@@ -24,7 +24,7 @@ public class HelloWorld {
         System.out.println(Arrays.toString(grades[2]));
 
         // Another Way
-        System.out.println("\n\nAnpther way: \n\n");
+        System.out.println("\n\nAnother way: \n\n");
 
         int[][] grades2 = {
             {1,32,3,45},

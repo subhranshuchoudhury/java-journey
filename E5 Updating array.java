@@ -45,3 +45,6 @@ public class HelloWorld {
 // we can't increase length of a existing array.
 // so we should create another array and merge the array to it.
 
+// 1. The default value for String is null.
+// 2. The default value for primitive types: int, double, long, char is 0.
+

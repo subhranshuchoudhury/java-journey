@@ -19,7 +19,9 @@ public class HelloWorld {
  * char[] letters = {'a','b','c'};
  * words[0] = jane 1st index is -- 0
  * words[2] = chintu
+ * words[3-1] == words[2] = chintu
  * array.length --> will give us the length of the array.
+ * if length of the array is n then => 1st index is 0 and last index is n-1
  */
 
 

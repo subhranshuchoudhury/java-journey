@@ -1,8 +1,7 @@
-import java.text.NumberFormat.Style;
-import java.util.Arrays;
-import java.util.Scanner;
 
-// 
+import java.util.Arrays;
+
+// 2D Array Practice.
 
 public class HelloWorld {
     
@@ -17,7 +16,7 @@ public class HelloWorld {
         };
 
         for (int i = 0; i < priceTable.length; i++) {
-            for (int j = 0; j <= 5; j++) {
+            for (int j = 0; j < priceTable[i].length; j++) {
                 System.out.print(priceTable[i][j]  + "\t");
             }
             System.out.println();

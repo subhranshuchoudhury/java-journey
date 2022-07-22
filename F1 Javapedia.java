@@ -10,6 +10,8 @@ public class HelloWorld {
         Scanner scan = new Scanner(System.in);
         System.out.println("How many historical figures will you register?");
         int fig = scan.nextInt();
+        scan.nextLine(); // catch the empty line.
+
 
         String[][] HistoricalDB = new String[fig][3]; // our column is fixed.
 
@@ -18,12 +20,11 @@ public class HelloWorld {
         for (int i = 0; i < HistoricalDB.length; i++) {
             System.out.println("Figure: " + (i + 1));
             System.out.print("\t- Name: ");
-            scan.nextLine();
             HistoricalDB[i][0] = scan.nextLine();
             System.out.print("\t- DOB: ");
-            HistoricalDB[i][1] = scan.next();
+            HistoricalDB[i][1] = scan.nextLine();
             System.out.print("\t- Occupation: ");
-            HistoricalDB[i][2] = scan.next();
+            HistoricalDB[i][2] = scan.nextLine();
         }
 
         // show the saved data.
@@ -37,7 +38,6 @@ public class HelloWorld {
         // ask user if they want to search.
 
         System.out.println("\nDo you want to search ? (y or n)");
-        scan.nextLine();
         String key = scan.nextLine();
         switch (key) {
             case "y":
@@ -48,10 +48,10 @@ public class HelloWorld {
                 for (int i = 0; i < HistoricalDB.length; i++) {
                     if (name.equals(HistoricalDB[i][0])) {
                         flag = true;
-                        System.out.println("Data Found!");
-                        System.out.print("Name: " + HistoricalDB[i][0] + "\t");
-                        System.out.print("Date of birth: " + HistoricalDB[i][1] + "\t");
-                        System.out.print("Occupation: " + HistoricalDB[i][2] + "\t");
+                        System.out.println("Data Found!\n**********");
+                        System.out.println("Name: " + HistoricalDB[i][0] + "\t");
+                        System.out.println("Date of birth: " + HistoricalDB[i][1] + "\t");
+                        System.out.println("Occupation: " + HistoricalDB[i][2] + "\t");
 
                     }
                 }

@@ -28,6 +28,8 @@ public class App {
             printBoard(board);
             checkWinner(board);
         }
+        System.out.println("It's a Tie! No one is winner.");
+
     }
 
     // print the board.

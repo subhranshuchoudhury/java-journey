@@ -12,5 +12,13 @@ public class Person {
         return Arrays.copyOf(this.passport, this.passport.length);
         // never: return this.passport --> it will change the value if you accidentaly change it.
     }
+
+    // copy constructor
+
+    public Person(Person source){
+        this.name = source.name;
+        //...
+        this.passport = Arrays.copyOf(source.passport, source.passport.length);
+    }
   
 }

@@ -1,7 +1,6 @@
 import java.util.Scanner;
 
-import javax.swing.text.StyledEditorKit.BoldAction;
-import javax.xml.validation.Schema;
+
 
 public class Main {
     public static void main(String[] args) {
@@ -11,8 +10,6 @@ public class Main {
         System.out.println("\t             WELCOME TO JAVA DRINKS!            ");
         System.out.println("\t************************************************");
 
-        // Item item = new Item("Fanta",2.90,1);
-        // System.out.println(item);
 
         Item[][] items = new Item[][] {
                 { new Item("Pepsi", 1.99, 3), new Item("Fresca", 1.49, 3), new Item("Brisk", 2.49, 2) },
@@ -46,6 +43,7 @@ public class Main {
                 System.out.println();
             
         }
+        scan.close();
 
     }
 }

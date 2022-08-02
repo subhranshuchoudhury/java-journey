@@ -1,10 +1,7 @@
-import java.util.concurrent.ForkJoinPool;
+
 
 public class Machine {
 
-    // private String name;
-    // private double price;
-    // private int quantity;
 
     private Item[][] items;
     

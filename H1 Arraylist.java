@@ -34,6 +34,13 @@ public class Arraylist {
 
         // - use arrays when size is fixed.
         // - use ArrayList where size can vary.
+        
+        // ArrayList<int> numbers = new ArrayList<int>(); -- error ArrayList can only store objects.
+        // ArrayList<Integer> numbers = new ArrayList<Integer>(); -- correct
+        // ArrayList can only store objects.
+
+
+
     }
 }
 

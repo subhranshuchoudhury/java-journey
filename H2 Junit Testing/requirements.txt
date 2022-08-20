@@ -1,3 +1,5 @@
+Download Junit Jar File Here: https://att-c.udemycdn.com/2021-07-08_20-08-39-9b2febb002c7f3bb47aec985c9f82858/original.jar?response-content-disposition=attachment%3B+filename%3Djunit-platform-console-standalone-1.8.0-M1.jar&Expires=1660941241&Signature=HrtpzJGeNRiSLLQ~hiw2cpffmy9RAzwWA4aGB9zA5jFYAepDN0~xwjyFRbUvHS~BaBmbpM7DIV0knPpbeNUo-AJM9wU9ya-JPyymL1RfMC71qBhQPqYGbT44potx7zUYosYmDi9L8-oPFnIWxAC~J7OgqG7IaiuADzaFFzZXMUSPyNXVb9kxPBkQOeu3W~tWylyrXnyYXFlW3rUk4cIzjJVb20W58pbjnMwwKpYRFwjqCVvg9wZnC2Erfyt5Yltx~1sL26r~LbilHd7TYn7nUXmf5mauKSGeD9d4ZVx2CLDTnozIdEK~k9XZHqS2ifLH33evxess333-~88capqR9w__&Key-Pair-Id=APKAITJV77WS5ZT7262A
+
 During checkout, the app returns a receipt that includes a subtotal, tax, and total.
 The tax rate is 13%.
 
